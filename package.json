@@ -1,6 +1,6 @@
 {
   "name": "@garney/busy-indicator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Busy indicator that wraps react-loader-spinner",
   "main": "dist",
   "keywords": [
@@ -12,7 +12,10 @@
     "prettify": "yarn prettier --write \"**/*.js\"",
     "test": "jest"
   },
-  "repository": "https://github.com/garney/busy-indicator",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garney/busy-indicator.git"
+  },
   "author": "Garney",
   "license": "MIT",
   "private": false,
@@ -32,5 +35,9 @@
   "dependencies": {
     "@garney/event-dispatcher": "^0.1.0",
     "react-loader-spinner": "^3.1.5"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/garney/busy-indicator/issues"
+  },
+  "homepage": "https://github.com/garney/busy-indicator#readme"
 }

@@ -7,13 +7,35 @@ Busy indicator that wraps react-loader-spinner
 Using [`npm`]():
 
 ```bash
-npm i busy-indicator
+npm i @garney/busy-indicator
 ```
 
 ## ✨ Usage
 
 ```javascript
-
+import { BusyIndicator, setBusyStatus }  from '@garney/busy-indicator';
+ 
+function DeepChild() {
+  return (
+    <div>
+      <button onClick={() => {
+            setBusyStatus(true);
+        }}>Show</button>
+      <button onClick={() => {
+          setBusyStatus(false);
+        }}>Hide</button>
+    </div>
+  )
+}
+ 
+export default () => {
+  return (
+    <div className="main-app">
+        <DeepChild/>
+        <BusyIndicator/>
+    </div>
+  );
+};
 ```
 
 ## 📌 Props
