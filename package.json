@@ -12,7 +12,7 @@
     "prettify": "yarn prettier --write \"**/*.js\"",
     "test": "jest"
   },
-  "repository": "",
+  "repository": "https://github.com/garney/busy-indicator",
   "author": "Garney",
   "license": "MIT",
   "private": false,
