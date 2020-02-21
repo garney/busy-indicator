@@ -1,0 +1,36 @@
+{
+  "name": "@garney/busy-indicator",
+  "version": "0.1.0",
+  "description": "Busy indicator that wraps react-loader-spinner",
+  "main": "dist",
+  "keywords": [
+    "react",
+    "busy-indicator"
+  ],
+  "scripts": {
+    "build": "babel src --out-dir dist && uglifyjs dist/*.js",
+    "prettify": "yarn prettier --write \"**/*.js\"",
+    "test": "jest"
+  },
+  "repository": "",
+  "author": "Garney",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/polyfill": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "husky": "^4.2.3",
+    "jest": "^25.1.0",
+    "prettier": "^1.19.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "uglify-js": "^3.7.7"
+  },
+  "dependencies": {
+    "@garney/event-dispatcher": "^0.1.0",
+    "react-loader-spinner": "^3.1.5"
+  }
+}
