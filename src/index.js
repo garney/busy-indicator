@@ -32,15 +32,15 @@ function BusyIndicator({ options = {} }) {
     width: 50
   };
  const busyStyle =  {
-      'background-color': options.backgroundColor || 'rgba(0,0,0,.5)',
+      backgroundColor: 'rgba(0,0,0,.5)',
       position: 'fixed',
       top: 0,
       left: 0,
       width: '100%',
       height: '100%',
       display: 'flex',
-      'justify-content': 'center',
-      'align-items': 'center'
+      justifyContent: 'center',
+      alignItems: 'center'
     };
 
   options = {
