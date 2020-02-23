@@ -32,8 +32,8 @@ function BusyIndicator({ options = {} }) {
     width: 50
   };
  const busyStyle =  {
-      'background-color': 'rgba(0,0,0,.5)',
-      position: 'absolute',
+      'background-color': options.backgroundColor || 'rgba(0,0,0,.5)',
+      position: 'fixed',
       top: 0,
       left: 0,
       width: '100%',
@@ -73,8 +73,6 @@ function BusyIndicator({ options = {} }) {
 function setBusyStatus(status) {
   BusyDispatcher.instance.setBusyStatus(status)
 }
-
-
 
 
 module.exports = {
