@@ -11,7 +11,7 @@ npm i @garney/busy-indicator
 ```
 
 ## ✨ Usage
-[DEMO](https://frontarm.com/demoboard/?id=f2d60eb7-2acf-4b90-a457-68e8a73dd930)
+[DEMO](https://codesandbox.io/s/busy-indicator-demo-4q5v1)
 ```javascript
 import { BusyIndicator, setBusyStatus }  from '@garney/busy-indicator';
  
